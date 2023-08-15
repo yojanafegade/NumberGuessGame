@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #b688e7;
+}
+
+.main_container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card{
+
+  text-align: center;
+    height: 28vw;
+    width: 38vw;
+     background: #e0bd35;
+     margin-top: 9vw;
+     padding: 40px;
+     border-style: solid;
+     border:2px solid;
+     border-radius: 24px;
+     justify-content: space-evenly;
+}
+.input #input{
+    margin: 70px 10px;
+    height: 50px;
+    width: 30%;
+    border: 5px solid rgba(150, 23, 175, 0.533);
+    border-radius: 34px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.card >button{
+    height: 9%;
+  width: 17%;
+  background: #7f50dd;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+#btn:hover{
+    color:rgb(255, 245, 245);
+    background: black;
+}
+.number_guesses, .num_game_result{
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}

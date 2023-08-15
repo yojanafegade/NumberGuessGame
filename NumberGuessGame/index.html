@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess game</title>
+<link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+
+
+</head>
+<body>
+    <div class="main_container">
+        <div class="card">
+            <h1 class="header">Guess the Number!</h1>
+            <div class="input">
+                <input type="number" name="num" placeholder="Enter a number to guess" id="input">
+            </div>
+           
+           <button onclick="clickHandler();changeColor();" type="submit" id="btn">Submit</button>
+           <p class="number_guesses">Number of Guesses : <span class="enteredNum">0</span></p>
+           <p class="num_game_result">Try to guess a number</p>
+         
+        </div>
+         
+
+
+
+
+    </div>
+    <script src="script.js"></script>
+ 
+</body>
+</html>
